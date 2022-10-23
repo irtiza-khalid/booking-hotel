@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/chat">
+
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.example.bookhotel.chat"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/booking"
+        android:name="com.example.bookhotel.bookings"
+        android:label="fragment_bookings"
+        tools:layout="@layout/fragment_bookings" />
+</navigation>
